@@ -1,0 +1,20 @@
+name: SVEconomy
+version: 1.0.0
+main: org.kirat.sveconomy.SVEconomy
+api-version: '1.21'
+
+author: Kirat_15
+description: Экономика на основе золота
+
+commands:
+  money:
+    description: Показывает ваш баланс
+    usage: /money
+    aliases:
+      - balance
+      - bal
+
+permissions:
+  sveconomy.money:
+    description: Позволяет использовать /money
+    default: true
